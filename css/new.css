@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("../img/final.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 750px;
+    margin-left: 35px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: darkred;
+    text-align: center;
+    text-justify: auto;
+}
+
+.learn{
+    font-size: 16px;
+    font-family: monospace;
+    color: darkred;
+    margin-left: 1035px;
+    margin-top: 325px;
+    text-justify: auto;
+    position: absolute;
+}
+
+.details h1{
+    text-align: center;
+    max-width: 750px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 33px;
+    font-size: 30px;
+    font-family: monospace;
+    color: darkred;
+    text-align: center;
+    text-justify: auto;
+}
+
+.details p{
+    text-align: center;
+    max-width: 725px;
+    margin-left: 55px;
+    padding: 20px;
+    font-size: 17px;
+    font-family: monospace;
+    color: darkred;
+}
+
+.works h2{
+    margin-left: 370px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 30px;
+    color: darkred;
+}
+
+.works a{
+    margin-left: 180px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    color: darkred;
+    text-decoration: none;
+}
+
+.works a:hover{
+    color:red;
+}
+
+.image .floating_img{
+    height: 300px;
+    width: 300px;
+    border-radius: 35%;
+    border: 10px solid;
+    border-color: burlywood;
+    margin-top: 20px;
+}
+
+.image .floating_img.right{
+    float: right;
+    margin-right: 50px;
+}
+
+.pic .floating_image{
+    height: 300px;
+    width: 400px;
+    border-radius: 35%;
+    border: 10px solid;
+    border-color: burlywood;
+    margin-top: 10px;
+}
+
+.pic .floating_image.right{
+    float: right;
+    margin-right: 25px;
+}
+
+.icons h3{
+    margin-left: 370px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 30px;
+    color: darkred;
+    justify-content: center;
+}
+
+.icons a{
+    margin-left: 150px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    color: darkred;
+    text-decoration: none;
+
+}
+
+.icons a:hover{
+    color:red;
+}
+
+#button {
+    text-align: right;
+    margin-top: 350px;
+    margin-left: 1050px;
+    position: absolute;
+    border-radius: 6%;
+    border: 3px solid;
+    border-color: burlywood;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#button a{
+    color: brown;
+}
+#button:hover a{
+    color:red;
+}
+
+
+#btn {
+    text-align: right;
+    margin-top: 45px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 6%;
+    border: 3px solid;
+    border-color: burlywood;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#btn a{
+    color: brown;
+}
+#btn:hover a{
+    color:red;
+}
